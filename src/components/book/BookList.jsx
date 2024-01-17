@@ -16,6 +16,10 @@ export default function BookList({ books, onFav }) {
             <p class="text-xs lg:text-sm">
               By: <span>{book.writter}</span>
             </p>
+            <p class="text-xs lg:text-sm">
+              Year: <span>{book.year}</span>
+            </p>
+
             <div class="flex items-center justify-between">
               <h4 class="text-lg font-bold lg:text-xl">{book.price}</h4>
 
